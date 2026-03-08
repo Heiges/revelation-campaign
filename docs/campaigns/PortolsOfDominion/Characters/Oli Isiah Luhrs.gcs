@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<character unique_id="euzcgpoe:-1pwt8gb99avql">
+	<player_name>Oliver Mai</player_name>
+	<campaign>REVELATION</campaign>
+	<name>Isiah Luhrs</name>
+	<age>20</age>
+	<birthday>Januar 8</birthday>
+	<eyes>Blue</eyes>
+	<hair>Blonde, Curly, Medium</hair>
+	<skin>Pale</skin>
+	<handedness>Right</handedness>
+	<height units="in">65.0</height>
+	<weight units="lb">154.0</weight>
+	<SM>0</SM>
+	<gender>Male</gender>
+	<race>Human</race>
+	<tech_level>4</tech_level>
+	<created_date>05.02.2006</created_date>
+	<modified_date>26.11.2006 12:17</modified_date>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>107</total_points>
+	<ST>11</ST>
+	<DX>11</DX>
+	<IQ>12</IQ>
+	<HT>10</HT>
+	<will>0</will>
+	<perception>0</perception>
+	<speed>0.0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<print_settings printer="EPSON Stylus Photo R220 Series" units="in">
+		<orientation>Portrait</orientation>
+		<width>8.267716407775879</width>
+		<height>11.692913055419922</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>Color</ink_chromaticity>
+		<sides>Single</sides>
+		<quality>Normal</quality>
+	</print_settings>
+	<advantage_list>
+		<advantage>
+			<name>Oblivious</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<reference>B146</reference>
+			<skill_bonus>
+				<name compare="is">diplomacy</name>
+				<specialization compare="is anything"/>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">fast-talk</name>
+				<specialization compare="is anything"/>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">intimidation</name>
+				<specialization compare="is anything"/>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="starts with">savoir-faire</name>
+				<specialization compare="is anything"/>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">sex appeal</name>
+				<specialization compare="is anything"/>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">streetwise</name>
+				<specialization compare="is anything"/>
+				<amount>-1</amount>
+			</skill_bonus>
+		</advantage>
+		<advantage>
+			<name>Innumerate</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<reference>B140</reference>
+			<prereq_list all="yes">
+				<skill_prereq has="no">
+					<name compare="contains">physics</name>
+					<specialization compare="is anything"/>
+				</skill_prereq>
+				<skill_prereq has="no">
+					<name compare="contains">mathematics</name>
+					<specialization compare="is anything"/>
+				</skill_prereq>
+				<skill_prereq has="no">
+					<name compare="is">market analysis</name>
+					<specialization compare="is anything"/>
+				</skill_prereq>
+				<skill_prereq has="no">
+					<name compare="is">finance</name>
+					<specialization compare="is anything"/>
+				</skill_prereq>
+				<skill_prereq has="no">
+					<name compare="contains">engineer</name>
+					<specialization compare="is anything"/>
+				</skill_prereq>
+				<skill_prereq has="no">
+					<name compare="is">cryptography</name>
+					<specialization compare="is anything"/>
+				</skill_prereq>
+				<skill_prereq has="no">
+					<name compare="is">astronomy</name>
+					<specialization compare="is anything"/>
+				</skill_prereq>
+				<skill_prereq has="no">
+					<name compare="is">accounting</name>
+					<specialization compare="is anything"/>
+				</skill_prereq>
+				<skill_prereq has="no">
+					<name compare="is">economics</name>
+					<specialization compare="is anything"/>
+				</skill_prereq>
+				<skill_prereq has="no">
+					<name compare="is">computer programming</name>
+					<specialization compare="is anything"/>
+				</skill_prereq>
+			</prereq_list>
+		</advantage>
+		<advantage>
+			<name>Easy to Read</name>
+			<type>Mental</type>
+			<base_points>-10</base_points>
+			<reference>B134</reference>
+		</advantage>
+		<advantage>
+			<name>QUIRK</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+		</advantage>
+		<advantage>
+			<name>QUIRK</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+		</advantage>
+		<advantage>
+			<name>QUIRK</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+		</advantage>
+		<advantage>
+			<name>QUIRK</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B163</reference>
+		</advantage>
+		<advantage>
+			<name>QUIRK</name>
+			<type>Physical</type>
+			<base_points>-1</base_points>
+			<reference>B165</reference>
+		</advantage>
+		<advantage>
+			<name>Magery</name>
+			<type>Mental, Supernatural</type>
+			<levels>2</levels>
+			<base_points>5</base_points>
+			<points_per_level>10</points_per_level>
+			<reference>B66</reference>
+			<spell_bonus all_colleges="yes">
+				<amount per_level="yes">+1</amount>
+			</spell_bonus>
+			<skill_bonus>
+				<name compare="is">thaumatology</name>
+				<specialization compare="is anything"/>
+				<amount per_level="yes">+1</amount>
+			</skill_bonus>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill>
+			<name>Climbing</name>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B183</reference>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill>
+			<name>First Aid</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>2</points>
+			<reference>B195</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Esoteric Medicine</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill>
+			<name>Knife</name>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B208</reference>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill>
+			<name>Polearm</name>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B208</reference>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Spear</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Staff</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Two-Handed Axe/Mace</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill>
+			<name>Research</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B217</reference>
+			<notes>When below TL8</notes>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Writing</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill>
+			<name>Riding</name>
+			<specialization>Horse</specialization>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B217</reference>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Animal Handling</name>
+				<specialization>Horse</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill>
+			<name>Soldier</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B221</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill>
+			<name>Spear</name>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B208</reference>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Polearm</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Staff</name>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill>
+			<name>Staff</name>
+			<difficulty>DX/A</difficulty>
+			<points>4</points>
+			<reference>B208</reference>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Polearm</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Spear</name>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill>
+			<name>Stealth</name>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B222</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill>
+			<name>Tactics</name>
+			<difficulty>IQ/H</difficulty>
+			<points>2</points>
+			<reference>B224</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Strategy</name>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill>
+			<name>Thaumatology</name>
+			<difficulty>IQ/VH</difficulty>
+			<points>4</points>
+			<reference>B225</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-7</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<spell_list>
+		<spell>
+			<name>Clumsiness</name>
+			<college>Body Control</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1-5</casting_cost>
+			<maintenance_cost>Half</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M36</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">spasm</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell>
+			<name>Grace</name>
+			<college>Body Control</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>4/+DX</casting_cost>
+			<maintenance_cost>Same</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M37</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">clumsiness</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell>
+			<name>Itch</name>
+			<college>Body Control</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Until scratched</duration>
+			<reference>M35</reference>
+		</spell>
+		<spell>
+			<name>Lend Vitality</name>
+			<college>Healing</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1/pt</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 Hour</duration>
+			<reference>M89</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">lend energy</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell>
+			<name>Lend Energy</name>
+			<college>Healing</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1/pt</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Permanent</duration>
+			<reference>M89</reference>
+			<prereq_list all="no">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery: healing college</name>
+						<notes compare="is anything"/>
+						<level compare="atLeast">1</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="is anything"/>
+						<level compare="atLeast">1</level>
+					</advantage_prereq>
+				</prereq_list>
+				<advantage_prereq has="yes">
+					<name compare="is">empathy</name>
+					<notes compare="is anything"/>
+				</advantage_prereq>
+			</prereq_list>
+		</spell>
+		<spell very_hard="yes">
+			<name>Major Healing</name>
+			<college>Healing</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1-4</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Permanent</duration>
+			<points>2</points>
+			<reference>M91</reference>
+			<prereq_list all="yes">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery: healing college</name>
+						<notes compare="is anything"/>
+						<level compare="atLeast">1</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="is anything"/>
+						<level compare="atLeast">1</level>
+					</advantage_prereq>
+				</prereq_list>
+				<spell_prereq has="yes">
+					<name compare="is">minor healing</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell>
+			<name>Minor healing</name>
+			<college>Healing</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1-3</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Permanent</duration>
+			<points>2</points>
+			<reference>M91</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">lend vitality</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell>
+			<name>Spasm</name>
+			<college>Body Control</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M35</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">itch</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell>
+			<name>Might</name>
+			<college>Body Control</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>2/+ST</casting_cost>
+			<maintenance_cost>Same</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M37</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">lend energy</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+	</spell_list>
+	<equipment_list carried="yes">
+		<equipment equipped="yes">
+			<description>Quarterstaff</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>10.0</value>
+			<weight units="lb">4.0</weight>
+			<reference>B273</reference>
+			<melee_weapon>
+				<damage>sw+2 cr</damage>
+				<strength>7&#8224;</strength>
+				<usage>Swung</usage>
+				<reach>1,2</reach>
+				<parry>+2</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Staff</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Polearm</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Spear</name>
+					<modifier>-2</modifier>
+				</default>
+			</melee_weapon>
+			<melee_weapon>
+				<damage>thr+2 cr</damage>
+				<strength>7&#8224;</strength>
+				<usage>Thrust</usage>
+				<reach>1,2</reach>
+				<parry>+2</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Staff</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Polearm</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Spear</name>
+					<modifier>-2</modifier>
+				</default>
+			</melee_weapon>
+		</equipment>
+		<equipment equipped="yes">
+			<description>Large Knife</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>40.0</value>
+			<weight units="lb">1.0</weight>
+			<reference>B272</reference>
+			<melee_weapon>
+				<damage>sw-2 cut</damage>
+				<strength>6</strength>
+				<usage>Swung</usage>
+				<reach>C,1</reach>
+				<parry>-1</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Knife</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Main-Gauche</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Sword!</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<melee_weapon>
+				<damage>thr imp</damage>
+				<strength>6</strength>
+				<usage>Thrust</usage>
+				<reach>C</reach>
+				<parry>-1</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Knife</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Main-Gauche</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Sword!</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<ranged_weapon>
+				<damage>thr imp</damage>
+				<strength>6</strength>
+				<usage>Thrown</usage>
+				<accuracy>+0</accuracy>
+				<range>x0.8/x1.5</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>T(1)</shots>
+				<bulk>-2</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Thrown Weapon</name>
+					<specialization>Knife</specialization>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+		</equipment>
+		<equipment equipped="yes">
+			<description>Money (Various coins)</description>
+			<legality_class>4</legality_class>
+			<value>1430.0</value>
+			<weight units="lb">0.01</weight>
+		</equipment>
+		<equipment equipped="yes">
+			<description>Shoes</description>
+			<tech_level>1</tech_level>
+			<legality_class>-</legality_class>
+			<value>40.0</value>
+			<weight units="lb">2.0</weight>
+			<reference>B284</reference>
+			<dr_bonus>
+				<location>feet</location>
+				<amount>+1</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment equipped="yes">
+			<description>Leather Helm</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>20.0</value>
+			<weight units="lb">0.5</weight>
+			<reference>B284</reference>
+			<dr_bonus>
+				<location>skull</location>
+				<amount>+2</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>face</location>
+				<amount>+2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment equipped="yes">
+			<description>Leather Armor</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>100.0</value>
+			<weight units="lb">10.0</weight>
+			<reference>B283</reference>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>+2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment equipped="yes">
+			<description>Heavy Leather Leggings</description>
+			<tech_level>1</tech_level>
+			<legality_class>-</legality_class>
+			<value>40.0</value>
+			<weight units="lb">2.0</weight>
+			<reference>B283</reference>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>+2</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>+2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment equipped="yes">
+			<description>Heavy Leather Sleeves</description>
+			<tech_level>1</tech_level>
+			<legality_class>-</legality_class>
+			<value>40.0</value>
+			<weight units="lb">3.0</weight>
+			<reference>B283</reference>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>+2</amount>
+			</dr_bonus>
+		</equipment>
+	</equipment_list>
+</character>

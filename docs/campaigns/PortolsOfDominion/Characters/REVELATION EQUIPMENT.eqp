@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<equipment_list unique_id="engcso0d:-17xpuxn376bfu">
+	<equipment_container open="yes">
+		<description>Banded Leather Mail</description>
+		<legality_class>4</legality_class>
+		<weight units="lb">0.0</weight>
+		<equipment>
+			<description>Banded Leather Mail Body</description>
+			<tech_level>3</tech_level>
+			<legality_class>4</legality_class>
+			<value>120.0</value>
+			<weight units="lb">15.0</weight>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>+3</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>+3</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Banded Leather Mail Arms</description>
+			<tech_level>3</tech_level>
+			<legality_class>4</legality_class>
+			<value>90.0</value>
+			<weight units="lb">7.0</weight>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>+3</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Banded Leather Mail Legs</description>
+			<tech_level>3</tech_level>
+			<legality_class>4</legality_class>
+			<value>110.0</value>
+			<weight units="lb">9.0</weight>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>+3</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Banded Leather Mail Body +1</description>
+			<tech_level>3</tech_level>
+			<legality_class>4</legality_class>
+			<value>240.0</value>
+			<weight units="lb">15.0</weight>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>+4</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>+4</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Banded Leather Mail Arms +1</description>
+			<tech_level>3</tech_level>
+			<legality_class>4</legality_class>
+			<value>180.0</value>
+			<weight units="lb">7.0</weight>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>+4</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Banded Leather Mail Legs +1</description>
+			<tech_level>3</tech_level>
+			<legality_class>4</legality_class>
+			<value>220.0</value>
+			<weight units="lb">9.0</weight>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>+4</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Banded Leather Mail Body +2</description>
+			<tech_level>3</tech_level>
+			<legality_class>4</legality_class>
+			<value>600.0</value>
+			<weight units="lb">15.0</weight>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>+5</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>+5</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Banded Leather Mail Arms +2</description>
+			<tech_level>3</tech_level>
+			<legality_class>4</legality_class>
+			<value>450.0</value>
+			<weight units="lb">7.0</weight>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>+5</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Banded Leather Mail Legs +2</description>
+			<tech_level>3</tech_level>
+			<legality_class>4</legality_class>
+			<value>550.0</value>
+			<weight units="lb">9.0</weight>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>+5</amount>
+			</dr_bonus>
+		</equipment>
+	</equipment_container>
+	<equipment_container open="yes">
+		<description>Hardened Leather</description>
+		<legality_class>4</legality_class>
+		<weight units="lb">0.0</weight>
+		<equipment>
+			<description>Hardened Leather Body</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>70.0</value>
+			<weight units="lb">10.0</weight>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>+2</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>+2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Hardened Leather Arms</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>50.0</value>
+			<weight units="lb">2.0</weight>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>+2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Hardened Leather Legs</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>60.0</value>
+			<weight units="lb">4.0</weight>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>+2</amount>
+			</dr_bonus>
+		</equipment>
+	</equipment_container>
+	<equipment_container open="no">
+		<description>Bar Mail</description>
+		<legality_class>4</legality_class>
+		<weight units="lb">0.0</weight>
+		<equipment>
+			<description>Bar Mail Body</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>300.0</value>
+			<weight units="lb">24.0</weight>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>+4</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>+4</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Bar Mail Arms</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>210.0</value>
+			<weight units="lb">16.0</weight>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>+4</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Bar Mail Legs</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>240.0</value>
+			<weight units="lb">23.0</weight>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>+4</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Bar Mail Body +1</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>600.0</value>
+			<weight units="lb">24.0</weight>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>+5</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>+5</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Bar Mail Arms +1</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>420.0</value>
+			<weight units="lb">16.0</weight>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>+5</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Bar Mail Legs +1</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>480.0</value>
+			<weight units="lb">23.0</weight>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>+5</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Bar Mail Body +2</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>1500.0</value>
+			<weight units="lb">24.0</weight>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>+6</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>+6</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Bar Mail Arms +2</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>1050.0</value>
+			<weight units="lb">16.0</weight>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>+6</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment>
+			<description>Bar Mail Legs +3</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>1200.0</value>
+			<weight units="lb">23.0</weight>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>+5</amount>
+			</dr_bonus>
+		</equipment>
+	</equipment_container>
+</equipment_list>

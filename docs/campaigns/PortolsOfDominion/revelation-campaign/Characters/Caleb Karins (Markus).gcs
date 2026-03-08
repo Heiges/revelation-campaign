@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character unique_id="enh7xg7j:-qcmw9byz8h3z" version="2">
+	<created_date>23.01.2006</created_date>
+	<modified_date>31.07.2011 10:44</modified_date>
+	<profile>
+		<player_name>Markus Lippmann</player_name>
+		<campaign>REVELATION</campaign>
+		<name>Caleb Karins</name>
+		<age>18</age>
+		<birthday>21.6</birthday>
+		<height>73 in</height>
+		<weight>135 lb</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Human</race>
+		<tech_level>3</tech_level>
+		<notes>Caleb hat nicht gerade die sch&#246;nste Kindheit hinter sich. Als 2. Sohn eines Tr&#228;nke- und Kr&#228;uterh&#228;ndlers hatte er eigentlich ein beh&#252;tetes Zuhause, aber da er sehr stark stotterte war er in der Schule nicht sonderlich beliebt und stets dem gnadenlosen Spott der anderen Sch&#252;ler ausgesetzt. Dies f&#252;hrte dazu, dass Caleb in der Schule fast keine Freunde gefunden hat und grunds&#228;tzlich anderen Menschen gegen&#252;ber eher zur&#252;ckhaltend ist, da er nie sicher wei&#223;, wie die Menschen auf sein Stottern reagieren werden. Im Rahmen seiner Familie (und den wenigen Freunden) taut Caleb aber wieder richtig auf, da sein Stottern dort kein Problem ist. Daher ist die Familie (und die Freunde, die er hat) f&#252;r ihn auch von gr&#246;&#223;ter Bedeutung.
+
+Diese Probleme haben auch dazu gef&#252;hrt, dass Caleb nicht wie alle anderen Kinder nach der Schule Fangen o.&#228;. gespielt hat, sondern lieber mit seinem Bruder Klengar in den W&#228;ldern um Unstadt herum Abenteuer erlebt hat. Dabei konnte er von seinem Bruder einiges &#252;ber Tiere und Pflanzen lernen. Auch den Umgang mit dem Bogen hat er hier verbessert.
+
+Zwei weitere Schicksalsschl&#228;ge haben seine Jugend gepr&#228;gt.
+
+So hat seine Schwester Tamara im Alter von 10 Jahren pl&#246;tzlich eine schwere Krankheit befallen. Ihr K&#246;rper ist innerhalb von 2 Monaten rasend schnell gealtert und sie immer schw&#228;cher geworden, bis sie schlie&#223;lich gestorben ist. Dieses Ph&#228;nomen konnte von niemanden erkl&#228;rt werden und auch die besten Mediziner (hier hat sein Vater viel Geld ausgegeben) konnten den Tod weder verhindern, noch erkl&#228;ren. Das ganze ist vor 3 Jahren geschehen.
+
+Seinen Bruder Klengar hat Caleb vor ca. einem Jahr "verloren", zumindest seit der damaligen Nacht nicht mehr gesehen. Im letzten Sommer war Caleb mit seinem Bruder ca. 15 Kilometer von der Stadt entfernt im Wald und hatte dort mit ihm ein Lager aufgeschlagen. Mitten in der Nacht wurde Caleb von einem Ger&#228;usch geweckt und konnte nur noch dunkle Schatten sehen, die in der Finsternis der Nacht verschwanden. Das Lager von seinem Bruder unmittelbar neben ihm war leer. Die Ausr&#252;stung allerdings war noch da. Obwohl Caleb sofort versuchte die Verfolgung aufzunehmen fand er keine Spuren. Seit dieser Nacht ist sein Bruder spurlos verschwunden. 
+
+Da nun Caleb der &#228;lteste Sohn ist, will sein Vater, dass er in 5 Jahren den Laden &#252;bernimmt. Diese Vorstellung ist f&#252;r Caleb aber der blanke Horror, da er sich ein Leben als H&#228;ndler nicht vorstellen kann. Dies vertr&#228;gt sich absolut nicht mit seiner Natur und seinem Charakter. Daher gab es hier&#252;ber in letzter Zeit einen erheblichen Streit mit seinem Vater, was Caleb sehr belastet, da er ja sehr an seiner Familie h&#228;ngt.</notes>
+	</profile>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>203</total_points>
+	<ST>13</ST>
+	<DX>13</DX>
+	<IQ>12</IQ>
+	<HT>11</HT>
+	<will>-2</will>
+	<perception>1</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Acute Hearing</name>
+			<type>Physical</type>
+			<levels>2</levels>
+			<points_per_level>2</points_per_level>
+			<reference>B35</reference>
+			<attribute_bonus>
+				<attribute>hearing</attribute>
+				<amount per_level="yes">1</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Acute Vision</name>
+			<type>Physical</type>
+			<levels>2</levels>
+			<points_per_level>2</points_per_level>
+			<reference>B35</reference>
+			<attribute_bonus>
+				<attribute>vision</attribute>
+				<amount per_level="yes">1</amount>
+			</attribute_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Alcohol Intolerance</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Animal Empathy</name>
+			<type>Mental</type>
+			<base_points>5</base_points>
+			<reference>B40</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Claustrophobia</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Fears big dogs and wulfs</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Fit</name>
+			<type>Physical</type>
+			<base_points>5</base_points>
+			<reference>B55</reference>
+			<notes>+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)</notes>
+		</advantage>
+		<advantage version="2">
+			<name>Hidebound</name>
+			<type>Physical</type>
+			<base_points>-5</base_points>
+			<reference>B138</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Is nororiously tardy</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Miserly</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Night Vision</name>
+			<type>Physical</type>
+			<levels>3</levels>
+			<points_per_level>1</points_per_level>
+			<reference>B71</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Shyness (Mild)</name>
+			<type>Mental</type>
+			<base_points>-5</base_points>
+			<reference>B154</reference>
+			<skill_bonus>
+				<name compare="is">acting</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">carousing</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">diplomacy</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">fast-talk</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">intimidation</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">leadership</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">merchant</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">panhandling</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">performance</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">politics</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">public speaking</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="contains">savoir-faire</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">sex appeal</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">streetwise</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">teaching</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-1</amount>
+			</skill_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Smokes</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Stuttering</name>
+			<type>Physical</type>
+			<base_points>-10</base_points>
+			<reference>B157</reference>
+			<skill_bonus>
+				<name compare="is">diplomacy</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-2</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">fast-talk</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-2</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">performance</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-2</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">public speaking</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-2</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">sex appeal</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-2</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">singing</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-2</amount>
+			</skill_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Ultravision</name>
+			<type>Physical, Exotic</type>
+			<base_points>10</base_points>
+			<modifier version="1" enabled="no">
+				<name>No normal vision</name>
+				<cost type="points">-10</cost>
+				<affects>total</affects>
+				<reference>B94</reference>
+			</modifier>
+			<reference>B94</reference>
+			<categories>
+				<category>Advantage</category>
+			</categories>
+		</advantage>
+		<advantage version="2">
+			<name>Untrained in Guns</name>
+			<type>Physical</type>
+			<levels>1</levels>
+			<notes>Represents the normal lerning curve after aquiring that skill. Will be removed by gm decision.</notes>
+			<skill_bonus>
+				<name compare="is">Guns</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-4</amount>
+			</skill_bonus>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Traps</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B226</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Lockpicking</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Tracking</name>
+			<difficulty>Per/A</difficulty>
+			<points>2</points>
+			<reference>B226</reference>
+			<notes>(+2 from vision NOT included!)</notes>
+			<default>
+				<type>Per</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Swimming</name>
+			<difficulty>HT/E</difficulty>
+			<points>1</points>
+			<reference>B224</reference>
+			<default>
+				<type>HT</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Survival</name>
+			<specialization>Woodlands</specialization>
+			<difficulty>Per/A</difficulty>
+			<points>1</points>
+			<reference>B223</reference>
+			<default>
+				<type>Will</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Naturalist</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Arctic</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Desert</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Island/Beach</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Jungle</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Mountain</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Plains</specialization>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Survival</name>
+				<specialization>Swampland</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Stealth</name>
+			<difficulty>DX/A</difficulty>
+			<points>8</points>
+			<reference>B222</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Shortsword</name>
+			<difficulty>DX/A</difficulty>
+			<points>4</points>
+			<reference>B209</reference>
+			<default>
+				<type>Skill</type>
+				<name>Broadsword</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Saber</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Smallsword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Tonfa</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Shield</name>
+			<specialization>Shield</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B220</reference>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Riding</name>
+			<specialization>Horse</specialization>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B217</reference>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Animal Handling</name>
+				<specialization>Horse</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Net</name>
+			<difficulty>DX/H</difficulty>
+			<points>2</points>
+			<reference>B211</reference>
+			<default>
+				<type>Skill</type>
+				<name>Cloak</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Navigation</name>
+			<specialization>Land</specialization>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>0</points>
+			<reference>B211</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Cartography</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Mathematics</name>
+				<specialization>Surveying</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Navigation</name>
+				<specialization>Air</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Navigation</name>
+				<specialization>Sea</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Naturalist</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B211</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Biology</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Lip Reading</name>
+			<difficulty>Per/A</difficulty>
+			<points>1</points>
+			<reference>B205</reference>
+			<notes>(+2 from vision NOT included!)</notes>
+			<default>
+				<type>Per</type>
+				<modifier>-10</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Knife</name>
+			<difficulty>DX/E</difficulty>
+			<points>2</points>
+			<reference>B208</reference>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Holdout</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B200</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Sleight of Hand</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Hiking</name>
+			<difficulty>HT/A</difficulty>
+			<points>1</points>
+			<reference>B200</reference>
+			<default>
+				<type>HT</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Herb Lore</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/VH</difficulty>
+			<points>4</points>
+			<reference>B199</reference>
+			<prereq_list all="yes">
+				<skill_prereq has="yes">
+					<name compare="contains">naturalist</name>
+					<specialization compare="is"></specialization>
+				</skill_prereq>
+			</prereq_list>
+		</skill>
+		<skill version="2">
+			<name>Guns</name>
+			<specialization>Musket</specialization>
+			<tech_level>3</tech_level>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B198</reference>
+			<categories>
+				<category>Combat/Weapon</category>
+				<category>Ranged Combat</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>First Aid</name>
+			<tech_level>3</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>4</points>
+			<reference>B195</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Esoteric Medicine</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Fast-Draw</name>
+			<specialization>Arrow</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>1</points>
+			<reference>B194</reference>
+		</skill>
+		<skill version="2">
+			<name>Climbing</name>
+			<difficulty>DX/A</difficulty>
+			<points>2</points>
+			<reference>B183</reference>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Bow</name>
+			<difficulty>DX/A</difficulty>
+			<points>12</points>
+			<reference>B182</reference>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Animal Handling</name>
+			<specialization>Horses</specialization>
+			<difficulty>IQ/A</difficulty>
+			<points>2</points>
+			<reference>B175</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Acrobatics</name>
+			<difficulty>DX/H</difficulty>
+			<points>2</points>
+			<reference>B174</reference>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<equipment_list>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Composite Bow (from the museum of victoriastadt)</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>2000</value>
+			<weight>4 lb</weight>
+			<reference>B275</reference>
+			<ranged_weapon>
+				<damage>thr+4 imp</damage>
+				<strength>10&#8224;</strength>
+				<accuracy>3</accuracy>
+				<range>x20/x25</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>1(2)</shots>
+				<bulk>-7</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Bow</name>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<notes>(adds a +1 to skill bow and has +1 damage)</notes>
+			<skill_bonus>
+				<name compare="contains">Bow</name>
+				<specialization compare="is anything"></specialization>
+				<amount>1</amount>
+			</skill_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Stealth Ring (from the museum of victoriastadt)</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<skill_bonus>
+				<name compare="contains">stealth</name>
+				<specialization compare="is anything"></specialization>
+				<amount>1</amount>
+			</skill_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Leather Helm</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>20</value>
+			<weight>0.5 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Headgear</category>
+			</categories>
+			<dr_bonus>
+				<location>skull</location>
+				<amount>2</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>face</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Gauntlets</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>100</value>
+			<weight>2 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Gloves</category>
+			</categories>
+			<dr_bonus>
+				<location>hands</location>
+				<amount>4</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Leather Armor</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>100</value>
+			<weight>10 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Body Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>2</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Boots</description>
+			<tech_level>2</tech_level>
+			<legality_class>-</legality_class>
+			<value>80</value>
+			<weight>3 lb</weight>
+			<reference>B284</reference>
+			<categories>
+				<category>Footwear</category>
+			</categories>
+			<dr_bonus>
+				<location>feet</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Heavy Leather Sleeves</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>50</value>
+			<weight>2 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>arms</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Heavy Leather Leggings</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>60</value>
+			<weight>4 lb</weight>
+			<reference>B283</reference>
+			<categories>
+				<category>Limb Armor</category>
+			</categories>
+			<dr_bonus>
+				<location>legs</location>
+				<amount>2</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Medium Shield</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>60</value>
+			<weight>15 lb</weight>
+			<reference>B287</reference>
+			<melee_weapon>
+				<damage>thr cr</damage>
+				<strength>0</strength>
+				<reach>1</reach>
+				<parry>No</parry>
+				<block>+0</block>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Buckler</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Force Shield</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shield</name>
+					<specialization>Shield</specialization>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Shield</category>
+			</categories>
+			<attribute_bonus>
+				<attribute>dodge</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>parry</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+			<attribute_bonus>
+				<attribute>block</attribute>
+				<amount>2</amount>
+			</attribute_bonus>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Shortsword</description>
+			<tech_level>2</tech_level>
+			<legality_class>4</legality_class>
+			<value>400</value>
+			<weight>2 lb</weight>
+			<reference>B273</reference>
+			<melee_weapon>
+				<damage>sw cut</damage>
+				<strength>8</strength>
+				<usage>Swung</usage>
+				<reach>1</reach>
+				<parry>0</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Broadsword</name>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Jitte/Sai</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Knife</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Saber</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Smallsword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Tonfa</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Sword!</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<melee_weapon>
+				<damage>thr imp</damage>
+				<strength>8</strength>
+				<usage>Thrust</usage>
+				<reach>1</reach>
+				<parry>0</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Broadsword</name>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Jitte/Sai</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Knife</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Saber</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Smallsword</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Tonfa</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Sword!</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Dagger</description>
+			<tech_level>1</tech_level>
+			<legality_class>4</legality_class>
+			<value>20</value>
+			<weight>0.25 lb</weight>
+			<reference>B272</reference>
+			<melee_weapon>
+				<damage>thr-1 imp</damage>
+				<strength>5</strength>
+				<usage>Thrust</usage>
+				<reach>C</reach>
+				<parry>-1</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Knife</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Force Sword</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Main-Gauche</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Shortsword</name>
+					<modifier>-3</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Sword!</name>
+					<modifier>0</modifier>
+				</default>
+			</melee_weapon>
+			<ranged_weapon>
+				<damage>thr-1 imp</damage>
+				<strength>5</strength>
+				<usage>Thrown</usage>
+				<accuracy>+0</accuracy>
+				<range>x0.5/x1</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>T(1)</shots>
+				<bulk>-1</bulk>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Thrown Weapon</name>
+					<specialization>Knife</specialization>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Melee Weapon</category>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Flintlock Pistol, .51</description>
+			<tech_level>4</tech_level>
+			<legality_class>3</legality_class>
+			<value>200</value>
+			<weight>3 lb</weight>
+			<reference>B278</reference>
+			<ranged_weapon>
+				<damage>2d-1 pi+</damage>
+				<strength>10</strength>
+				<accuracy>1</accuracy>
+				<range>75/450</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>1(20)</shots>
+				<bulk>-3</bulk>
+				<recoil>2</recoil>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Machine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Submachine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Musket</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Grenade Launcher</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Gyroc</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Anti-Armor Weapon</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Gun!</name>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+		<equipment version="3" state="equipped">
+			<quantity>1</quantity>
+			<description>Flintlock Musket, .75</description>
+			<tech_level>4</tech_level>
+			<legality_class>4</legality_class>
+			<value>200</value>
+			<weight>13 lb</weight>
+			<reference>B279</reference>
+			<ranged_weapon>
+				<damage>4d pi++</damage>
+				<strength>10&#8224;</strength>
+				<accuracy>2</accuracy>
+				<range>100/1500</range>
+				<rate_of_fire>1</rate_of_fire>
+				<shots>1(15)</shots>
+				<bulk>-6</bulk>
+				<recoil>4</recoil>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Machine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Submachine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Musket</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Grenade Launcher</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Gyroc</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Anti-Armor Weapon</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Gun!</name>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<categories>
+				<category>Missile Weapon</category>
+			</categories>
+		</equipment>
+	</equipment_list>
+	<print_settings printer="EPSON Stylus Photo R220 Series" units="in">
+		<orientation>Portrait</orientation>
+		<width>8.267716407775879</width>
+		<height>11.692913055419922</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>Monochrome</ink_chromaticity>
+		<sides>Single</sides>
+		<quality>Normal</quality>
+		<resolution>60000</resolution>
+	</print_settings>
+</character>

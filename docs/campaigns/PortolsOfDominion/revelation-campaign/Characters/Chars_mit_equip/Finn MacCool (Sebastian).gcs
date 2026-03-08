@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<character unique_id="errz8p4b:-xcpsjlyxae8k" version="1">
+	<created_date>06.09.2006</created_date>
+	<modified_date>07.08.2010 20:01</modified_date>
+	<profile>
+		<player_name>Sebastian Rudert</player_name>
+		<campaign>REVELATION</campaign>
+		<name>Finn MacCool</name>
+		<age>20</age>
+		<birthday>Dezember 16</birthday>
+		<eyes>Green</eyes>
+		<hair>White, Curly, Short</hair>
+		<skin>Pale</skin>
+		<handedness>Right</handedness>
+		<height units="in">68</height>
+		<weight units="lb">100.0</weight>
+		<SM>0</SM>
+		<gender>Male</gender>
+		<race>Human</race>
+		<tech_level>4</tech_level>
+	</profile>
+	<HP>0</HP>
+	<FP>0</FP>
+	<total_points>135</total_points>
+	<ST>10</ST>
+	<DX>10</DX>
+	<IQ>14</IQ>
+	<HT>10</HT>
+	<will>-3</will>
+	<perception>-3</perception>
+	<speed>0</speed>
+	<move>0</move>
+	<include_punch>true</include_punch>
+	<include_kick>true</include_kick>
+	<include_kick_with_boots>true</include_kick_with_boots>
+	<advantage_list>
+		<advantage version="2">
+			<name>Magery</name>
+			<type>Mental, Supernatural</type>
+			<levels>3</levels>
+			<base_points>5</base_points>
+			<points_per_level>10</points_per_level>
+			<reference>B66</reference>
+			<spell_bonus all_colleges="yes">
+				<amount per_level="yes">1</amount>
+			</spell_bonus>
+			<skill_bonus>
+				<name compare="is">thaumatology</name>
+				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+		</advantage>
+		<advantage version="2">
+			<name>Miserliness</name>
+			<type>Mental</type>
+			<levels>0</levels>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Curious</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Writes a daily diary</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Thinks from himself as a perfect gambler</name>
+			<type>Mental</type>
+			<base_points>-1</base_points>
+			<reference>B164</reference>
+		</advantage>
+		<advantage version="2">
+			<name>Susceptible (Sunlight)</name>
+			<type>Physical</type>
+			<levels>3</levels>
+			<points_per_level>-4</points_per_level>
+			<reference>B158</reference>
+			<notes>(Roll HT-3 or suffer a severe sunburn)</notes>
+		</advantage>
+		<advantage version="2">
+			<name>Skinny</name>
+			<type>Physical</type>
+			<base_points>-5</base_points>
+			<reference>B18</reference>
+			<notes>-2 ST vs. knockback</notes>
+			<skill_bonus>
+				<name compare="is">disguise</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-2</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">shadowing</name>
+				<specialization compare="is anything"></specialization>
+				<amount>-2</amount>
+			</skill_bonus>
+			<prereq_list all="yes">
+				<attribute_prereq has="yes" which="ht" compare="at_most">14</attribute_prereq>
+			</prereq_list>
+		</advantage>
+		<advantage version="2">
+			<name>Appearance (Unattractive)</name>
+			<type>Physical</type>
+			<base_points>-4</base_points>
+			<reference>B21</reference>
+		</advantage>
+	</advantage_list>
+	<skill_list>
+		<skill version="2">
+			<name>Administration</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B174</reference>
+			<default>
+				<type>Skill</type>
+				<name>Merchant</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Aerobatics</name>
+			<difficulty>DX/H</difficulty>
+			<points>1</points>
+			<reference>B174</reference>
+			<categories>
+				<category>Athletic</category>
+			</categories>
+			<default>
+				<type>DX</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Artist</name>
+			<specialization>Woodworking</specialization>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B179</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Carpentry</name>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Carousing</name>
+			<difficulty>HT/E</difficulty>
+			<points>1</points>
+			<reference>B183</reference>
+			<default>
+				<type>HT</type>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Diagnosis</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B187</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>First Aid</name>
+				<modifier>-8</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>First Aid</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/E</difficulty>
+			<points>1</points>
+			<reference>B195</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Esoteric Medicine</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Physician</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-4</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Gambling</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B197</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Mathematics</name>
+				<specialization>Statistics</specialization>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Hidden Lore</name>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B199</reference>
+		</skill>
+		<skill version="2">
+			<name>History</name>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B200</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-6</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Innate Attack</name>
+			<specialization>Magic Missiles</specialization>
+			<difficulty>DX/E</difficulty>
+			<points>4</points>
+			<reference>B201</reference>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Innate Attack</name>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Observation</name>
+			<difficulty>Per/A</difficulty>
+			<points>1</points>
+			<reference>B211</reference>
+			<default>
+				<type>Will</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shadowing</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Physician</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/H</difficulty>
+			<points>1</points>
+			<reference>B213</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-7</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>First Aid</name>
+				<modifier>-11</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Veterinary</name>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Research</name>
+			<tech_level>4</tech_level>
+			<difficulty>IQ/A</difficulty>
+			<points>1</points>
+			<reference>B217</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-5</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Riding</name>
+			<specialization>Horses</specialization>
+			<difficulty>DX/A</difficulty>
+			<points>1</points>
+			<reference>B217</reference>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Animal Handling</name>
+				<specialization>Horses</specialization>
+				<modifier>-3</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Staff</name>
+			<difficulty>DX/A</difficulty>
+			<points>2</points>
+			<reference>B208</reference>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Polearm</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Spear</name>
+				<modifier>-2</modifier>
+			</default>
+		</skill>
+		<skill version="2">
+			<name>Thaumatology</name>
+			<difficulty>IQ/VH</difficulty>
+			<points>1</points>
+			<reference>B225</reference>
+			<default>
+				<type>IQ</type>
+				<modifier>-7</modifier>
+			</default>
+		</skill>
+	</skill_list>
+	<spell_list>
+		<spell version="2">
+			<name>Air Vision</name>
+			<college>Air/Knowledge</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1 per mile</casting_cost>
+			<maintenance_cost>Half</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M24</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">shape air</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Analyze Magic</name>
+			<college>Knowledge</college>
+			<spell_class>Info</spell_class>
+			<casting_cost>8</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 hr</casting_time>
+			<duration>Instant</duration>
+			<reference>M102</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">identify spell</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Apportation</name>
+			<college>Movement</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>Varies</casting_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M142</reference>
+			<prereq_list all="yes">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery: movement college</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">1</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">1</level>
+					</advantage_prereq>
+				</prereq_list>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Ball of Lightning</name>
+			<college>Air/Weather</college>
+			<spell_class>Missile</spell_class>
+			<casting_cost>2-6</casting_cost>
+			<maintenance_cost>Half</maintenance_cost>
+			<casting_time>1-3 sec</casting_time>
+			<duration>1 min</duration>
+			<melee_weapon>
+				<damage>1d-1 burn ex/point</damage>
+				<reach>Special</reach>
+				<parry>No</parry>
+			</melee_weapon>
+			<reference>M197</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">lightning</name>
+				</spell_prereq>
+				<spell_prereq has="yes">
+					<name compare="is">apportation</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Counterspell</name>
+			<college>Meta</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>Half countered spell</casting_cost>
+			<casting_time>5 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M121</reference>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">magery</name>
+					<notes compare="contains">one college (meta)</notes>
+					<level compare="at_least">1</level>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">magery</name>
+					<notes compare="is anything"></notes>
+					<level compare="at_least">1</level>
+				</advantage_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Create Air</name>
+			<college>Air</college>
+			<spell_class>Area</spell_class>
+			<casting_cost>1</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>5 sec</duration>
+			<reference>M23</reference>
+			<prereq_list all="no">
+				<spell_prereq has="yes">
+					<name compare="is">purify air</name>
+				</spell_prereq>
+				<spell_prereq has="yes">
+					<name compare="is">seek air</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Deflect Missile</name>
+			<college>Movement/Protection</college>
+			<spell_class>Blocking</spell_class>
+			<casting_cost>1</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M143</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">apportation</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Detect Magic</name>
+			<college>Knowledge</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>5 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M101</reference>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">magery: knowledge college</name>
+					<notes compare="is anything"></notes>
+					<level compare="at_least">1</level>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">magery</name>
+					<notes compare="is anything"></notes>
+					<level compare="at_least">1</level>
+				</advantage_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Dispel Magic</name>
+			<college>Meta</college>
+			<spell_class>Area</spell_class>
+			<casting_cost>3</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>sec=cost</casting_time>
+			<duration>Permanent</duration>
+			<reference>M126</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">counterspell</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Far-Hearing</name>
+			<college>Sound</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>4</casting_cost>
+			<maintenance_cost>2</maintenance_cost>
+			<casting_time>3 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M173</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<college compare="contains">sound</college>
+					<quantity compare="at_least">4</quantity>
+				</spell_prereq>
+				<advantage_prereq has="no">
+					<name compare="is">hard of hearing</name>
+					<notes compare="is anything"></notes>
+				</advantage_prereq>
+				<advantage_prereq has="no">
+					<name compare="is">deafness</name>
+					<notes compare="is anything"></notes>
+				</advantage_prereq>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery: sound college</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">1</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">1</level>
+					</advantage_prereq>
+				</prereq_list>
+			</prereq_list>
+		</spell>
+		<spell version="2" very_hard="yes">
+			<name>Flight</name>
+			<college>Movement</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>5</casting_cost>
+			<maintenance_cost>3</maintenance_cost>
+			<casting_time>2 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M145</reference>
+			<categories>
+				<category>Movement</category>
+			</categories>
+			<prereq_list all="yes">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="contains">one college (movement)</notes>
+						<level compare="at_least">2</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="does not contain">one college</notes>
+						<level compare="at_least">2</level>
+					</advantage_prereq>
+				</prereq_list>
+				<spell_prereq has="yes">
+					<name compare="is">levitation</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2" very_hard="yes">
+			<name>Hawk Flight</name>
+			<college>Movement</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>8</casting_cost>
+			<maintenance_cost>4</maintenance_cost>
+			<casting_time>3 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M146</reference>
+			<categories>
+				<category>Movement</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">flight</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Hush</name>
+			<college>Sound</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>1</maintenance_cost>
+			<casting_time>2 sec</casting_time>
+			<duration>10 sec#</duration>
+			<reference>M172</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">silence</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Identify Spell</name>
+			<college>Knowledge</college>
+			<spell_class>Info</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M102</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">detect magic</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Lend Energy</name>
+			<college>Healing</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1/pt</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Permanent</duration>
+			<reference>M89</reference>
+			<prereq_list all="no">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery: healing college</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">1</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">1</level>
+					</advantage_prereq>
+				</prereq_list>
+				<advantage_prereq has="yes">
+					<name compare="is">empathy</name>
+					<notes compare="is anything"></notes>
+				</advantage_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Lend Vitality</name>
+			<college>Healing</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1/pt</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 Hour</duration>
+			<reference>M89</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">lend energy</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Levitation</name>
+			<college>Movement</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1 per 80 lbs</casting_cost>
+			<maintenance_cost>Half</maintenance_cost>
+			<casting_time>2 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M143</reference>
+			<categories>
+				<category>Movement</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">apportation</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Light</name>
+			<college>Light</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1</casting_cost>
+			<maintenance_cost>1</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M110</reference>
+		</spell>
+		<spell version="2">
+			<name>Lightning</name>
+			<college>Air/Weather</college>
+			<spell_class>Missile</spell_class>
+			<casting_cost>1-Magery</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1-3 sec</casting_time>
+			<duration>Instant</duration>
+			<ranged_weapon>
+				<damage>1d-1 burn/point</damage>
+				<accuracy>3</accuracy>
+				<range>50/100</range>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Innate Attack</name>
+					<specialization>Beam</specialization>
+					<modifier>0</modifier>
+				</default>
+			</ranged_weapon>
+			<reference>M196</reference>
+			<prereq_list all="yes">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">1</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery: air college</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">1</level>
+					</advantage_prereq>
+				</prereq_list>
+				<spell_prereq has="yes">
+					<college compare="contains">air</college>
+					<quantity compare="at_least">6</quantity>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Lightning Weapon</name>
+			<college>Air/Weather</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>4</casting_cost>
+			<maintenance_cost>1</maintenance_cost>
+			<casting_time>2 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M198</reference>
+			<notes>+2 burn damage with melee weapon</notes>
+			<prereq_list all="yes">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">2</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery: air college</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">2</level>
+					</advantage_prereq>
+				</prereq_list>
+				<spell_prereq has="yes">
+					<name compare="is">lightning</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Mage-Stealth</name>
+			<college>Sound</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>3</casting_cost>
+			<maintenance_cost>2</maintenance_cost>
+			<casting_time>3 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M172</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">hush</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2" very_hard="yes">
+			<name>Major Healing</name>
+			<college>Healing</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1-4</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Permanent</duration>
+			<points>2</points>
+			<reference>M91</reference>
+			<prereq_list all="yes">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery: healing college</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">1</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">1</level>
+					</advantage_prereq>
+				</prereq_list>
+				<spell_prereq has="yes">
+					<name compare="is">minor healing</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Mind-Reading</name>
+			<college>Communication</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>4</casting_cost>
+			<maintenance_cost>2</maintenance_cost>
+			<casting_time>10 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M46</reference>
+			<prereq_list all="no">
+				<spell_prereq has="yes">
+					<name compare="is">truthsayer</name>
+				</spell_prereq>
+				<spell_prereq has="yes">
+					<name compare="is">borrow language</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Mind-Sending</name>
+			<college>Communication</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>4</casting_cost>
+			<maintenance_cost>4</maintenance_cost>
+			<casting_time>4 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M47</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">mind-reading</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Minor healing</name>
+			<college>Healing</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1-3</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Permanent</duration>
+			<reference>M91</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">lend vitality</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Predict Weather</name>
+			<college>Air/Weather</college>
+			<spell_class>Information</spell_class>
+			<casting_cost>Varies</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>5 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M193</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<college compare="contains">air</college>
+					<quantity compare="at_least">4</quantity>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Purify Air</name>
+			<college>Air</college>
+			<spell_class>Area</spell_class>
+			<casting_cost>1</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M23</reference>
+		</spell>
+		<spell version="2">
+			<name>Recover Energy</name>
+			<college>Healing</college>
+			<spell_class>Special</spell_class>
+			<casting_cost>0</casting_cost>
+			<maintenance_cost>0</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Special</duration>
+			<reference>M89</reference>
+			<prereq_list all="yes">
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">magery: healing college</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">1</level>
+					</advantage_prereq>
+					<advantage_prereq has="yes">
+						<name compare="is">magery</name>
+						<notes compare="is anything"></notes>
+						<level compare="at_least">1</level>
+					</advantage_prereq>
+				</prereq_list>
+				<spell_prereq has="yes">
+					<name compare="is">lend energy</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Sense Emotion</name>
+			<college>Communication</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M45</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">sense foes</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Sense Foes</name>
+			<college>Communication</college>
+			<spell_class>Info/Area</spell_class>
+			<casting_cost>1/area, min 2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M44</reference>
+		</spell>
+		<spell version="2">
+			<name>Shape Air</name>
+			<college>Air</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>1-10</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M24</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">create air</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Silence</name>
+			<college>Sound</college>
+			<spell_class>Area</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>Half</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M171</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">sound</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Sound</name>
+			<college>Sound</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>Varies</casting_cost>
+			<maintenance_cost>1/ min</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Varies</duration>
+			<reference>M171</reference>
+		</spell>
+		<spell version="2" very_hard="yes">
+			<name>Teleport</name>
+			<college>Gate/Movement</college>
+			<spell_class>Special</spell_class>
+			<casting_cost>Varies</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M147</reference>
+			<categories>
+				<category>Gate</category>
+				<category>Movement</category>
+			</categories>
+			<prereq_list all="no">
+				<spell_prereq has="yes">
+					<name compare="is">hawk flight</name>
+				</spell_prereq>
+				<prereq_list all="yes">
+					<attribute_prereq has="yes" which="iq" compare="at_least">13</attribute_prereq>
+					<spell_prereq has="yes">
+						<college_count compare="at_least">10</college_count>
+					</spell_prereq>
+				</prereq_list>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Truthsayer</name>
+			<college>Communication</college>
+			<spell_class>Info</spell_class>
+			<casting_cost>2</casting_cost>
+			<maintenance_cost>-</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>Instant</duration>
+			<reference>M45</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">sense emotion</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Walk on Air</name>
+			<college>Air</college>
+			<spell_class>Regular</spell_class>
+			<casting_cost>3</casting_cost>
+			<maintenance_cost>2</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>M25</reference>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">shape air</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+	</spell_list>
+	<equipment_list>
+		<equipment version="2" state="equipped">
+			<quantity>1</quantity>
+			<description>Quarterstaff</description>
+			<tech_level>0</tech_level>
+			<legality_class>4</legality_class>
+			<value>10</value>
+			<weight units="lb">4.0</weight>
+			<reference>B273</reference>
+			<melee_weapon>
+				<damage>sw+2 cr</damage>
+				<strength>7&#8224;</strength>
+				<usage>Swung</usage>
+				<reach>1,2</reach>
+				<parry>+2</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Staff</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Polearm</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Spear</name>
+					<modifier>-2</modifier>
+				</default>
+			</melee_weapon>
+			<melee_weapon>
+				<damage>thr+2 cr</damage>
+				<strength>7&#8224;</strength>
+				<usage>Thrust</usage>
+				<reach>1,2</reach>
+				<parry>+2</parry>
+				<block>No</block>
+				<default>
+					<type>DX</type>
+					<modifier>-5</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Staff</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Polearm</name>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Spear</name>
+					<modifier>-2</modifier>
+				</default>
+			</melee_weapon>
+		</equipment>
+		<equipment version="2" state="equipped">
+			<quantity>1</quantity>
+			<description>6 pt Powerstone (charge: 6)</description>
+			<legality_class>4</legality_class>
+			<value>790</value>
+			<weight units="lb">0.0020</weight>
+			<reference>M20</reference>
+		</equipment>
+		<equipment version="2" state="equipped">
+			<quantity>1</quantity>
+			<description>Money (varoius coins)</description>
+			<legality_class>4</legality_class>
+			<value>200</value>
+			<weight units="lb">1.1</weight>
+		</equipment>
+	</equipment_list>
+	<print_settings printer="EPSON Stylus Photo R220 Series" units="in">
+		<orientation>Portrait</orientation>
+		<width>8.267716407775879</width>
+		<height>11.692913055419922</height>
+		<top_margin>0.5</top_margin>
+		<left_margin>0.5</left_margin>
+		<bottom_margin>0.5</bottom_margin>
+		<right_margin>0.5</right_margin>
+		<ink_chromaticity>Color</ink_chromaticity>
+		<sides>Single</sides>
+		<quality>Normal</quality>
+	</print_settings>
+</character>
